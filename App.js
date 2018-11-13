@@ -1,7 +1,8 @@
 import { createStackNavigator } from 'react-navigation';
+import React from 'react'
 
-import HomePage from './src/screens/HomeScreen';
-
+import HomeScreen from './src/screens/HomeScreen';
+import LogoImage from './src/components/LogoImage';
 
 export default createStackNavigator({
   'Home':{
@@ -9,7 +10,7 @@ export default createStackNavigator({
   }
 },{
   navigationOptions:{
-    title: 'Game Rating',
+    headerTitle: <LogoImage/>,
     headerStyle:{
 
     },
