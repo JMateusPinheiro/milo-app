@@ -2,7 +2,7 @@ import React from 'react'
 import {View, ActivityIndicator, StyleSheet} from 'react-native'
 
 const FlatListFooter = (props) => {
-  //if (!props.loading) return null;
+  if (!props.loading) return null;
 
     return (
       <View style={styles.loading}>
