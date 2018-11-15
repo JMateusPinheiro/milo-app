@@ -8,7 +8,7 @@ const LogoImage = props => {
 			<Text>Milo's App</Text>
 			<Image
 				style={styles.logo} 
-				source={require('../../assets/greenmile.png')}/>
+				source={require('../../assets/greenmile.jpg')}/>
 		</View>
 	)
 }

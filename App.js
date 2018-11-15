@@ -12,10 +12,11 @@ export default createStackNavigator({
   navigationOptions:{
     headerTitle: <LogoImage/>,
     headerStyle:{
-
+      backgroundColor: '#8bb03e'
     },
     headerTitleStyle:{
-
+      flex: 1,
+      alignSelf: 'center',
     }
   }
 })
